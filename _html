@@ -1,0 +1,2 @@
+(define-key html-mode-map (kbd "C-M-j") 'sgml-skip-tag-backward)
+(define-key html-mode-map (kbd "C-M-l") 'sgml-skip-tag-forward)

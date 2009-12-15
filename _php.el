@@ -1,0 +1,12 @@
+(add-to-list 'load-path "~/el/lib/php-mode-1.4.0/")
+(require 'php-mode)
+(add-to-list 'auto-mode-alist '("\\.php$" . php-mode))
+
+(defkeys (php-mode-map)
+    ((kbd "(") nil)
+  ((kbd "{") nil)
+  ((kbd "[") nil)
+  ((kbd "C-<tab>") 'php-complete-function)
+  ((kbd "M-.") nil)
+  ((kbd "C-.") nil)
+    )

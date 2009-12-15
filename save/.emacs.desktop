@@ -1,0 +1,2459 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Dec  3 18:42:11 2009
+;; Desktop file format version 206
+;; Emacs version 22.1.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("load" ".dump" ".load" "dump" "load" "Drope" "drop" "sche" "owner_id" "owne" "own" ".opt" "json" ".." "<" "custom" "VDA" ":" "do" "=>" "," ":force" "do" "=>" "," ":force" "do" "=>" "," ":force" "do" "=>" "," ":force" "do" "=>" "," ":force" "do" "=>" "," ":force" "do" "=>" "," ":force" "do" "=>" "," ":force" "do" "=>" "," ":force" "do" "=>" "," ":force" "do" "=>" "," ":force" "do" "=>" "," ":force" "do" "=>" "," ":force" "do" "=>" "," ":force" "do" "=>" "," ":force" "versio" "do" "=>" "," ":force" "drop" ":f" "do" "=>" "," ":force" "do" "=>" "," ":force" "do" "=>" "," ":force" "do" "=>" "," ":force" "do" "=>" "," ":force" "do" "=>" "," ":force" "do" "=>" "," ":force" "drop" "remove_foreign_key" "remove foreign key" "tables" "p " "self." "call" "acc" "ACC" "@" "Test" "@acc" "acc" "ACC" "cle" "@test" ".." "ve" "mig" "@acc" "versions" "version" "@versions" "versions" "respond" "respond_ok" "create" "format" "read_atom" "def" "rea" "complex_type" "token" "hardy" "hist" "history" "c" "reaosn" "one_time_auth" "destro" "CreditCard" "delete" "update" "all" "one or more" "all" "atti" "dele" "raise" "Rec" "\"id" "find" "Record" "erla" "rabbi" "don" "case" "oh" "pp " "p " "on_error" "pro" "find" "on_error" "log" "Rant" "rant" "pa" "payload[" ":me" "Eve" "suppo" "re" "ack" "even" "map" "unnel" "p " "star" "name" "def" "even" "thread" "pub" "payload[" "payload" "pau" "meta" "call" "def" "block" "expects" "clas" "sub" "expect" "server" "seria" "dump" "load" "@mq" "marsa" "def" "subsci" "def" "unsu" "resend" "should _re" "no_d" "topic" "over" "pos" "format" "content" "co" "code" "h2." "##" "h2." ".h2" "@" "IO" "S" "@" "C-c" "indent" "S" "NO" "#" "prefix" "n-chars" "\"N" "fi " "prefix" "s-l" "region" "markdown" "game" "p " "current" "u" "at" "brain" "require" "Temp" "temp" "p " "foo" "line" "length" "attr" "fails" "style" "Dre" "Dresser" "Dres" "p " "match" "files" "path" "gen" "fuck" "fucking" "rece" "wish" "brain" "rename" "file" "rename" "Down" "remote" "remote_exists" "exists" "cache_path" "initia" "fetch!" "for" "Package" "def" "files" "load" "find_command" "pack" "insta" "no" "noko" "get_money" "gets mon" "def" "move_money" "data" "VP::DB::Account" "def" "sample" "sampl" "put_money to cc" "save" "output" "put" "date" "p " "Data" "move" "def" "sample" "send" "sends" "send_mone" "move_money" "move_" "acti" "aciv" "ty_for" "get" "activity_for" "acti" "activiti" "move" "send" "error" "def" "date" "move" "else" "fail" "data" "input" "def" "send_money" "send" "send_money" "p " "send_mone" "w." "get_mn" "put_money" ":done" "get_money" "error" "fail" "fi" "eft_ok" "def" "fail" "send_money" "send_mon" "TRANSFER" "TAN" "get_mone" "w." "def" "send_money" "move_money" "activity_for" "send_money" "move_money" "def" "lock" "Work" "get_mone" "TRANSFER" "Balance" "transfer" "goto" "completed" "complete" "puts " "@ba" "Data" "DA" "put_money" "date" "accou" "put_mone" "eft" "handle_event" "completed_efts" "def" "complete" "get_money" "put_money" "=" "dail" "complete" "processed_" "put_mone" "et" "sample_get_money_by_eft" "eft" "save_money" "put_money" "Data" "put_money" "save_money" "saved" "save_money" "when" "trans" "save_money" "one_" "coerce" "cor" "def" "nest" "n" "array" "def" "lib" "+" "Transfer" "transfers" "save_money" "get_money" "transfer_id" "put_money" "save_money" "saves_money" "machine" "transfer" "move" "Verify" "move_money" "account" "send_money" "friend" "pus" "ren"))
+(setq regexp-search-ring nil)
+(setq register-alist (list (desktop-list* 113 (let ((mk (make-marker))) (add-hook 'desktop-delay-hook (list 'lambda '() (list 'set-marker mk 3739 (get-buffer "ass_spec.rb")))) mk))))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/howard/ass/lib/ass/server.rb"
+  "server.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  937
+  '(2576 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/howard/ass/lib/ass/rpc.rb"
+  "rpc.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1986
+  '(2070 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/howard/tr/config/default.rb"
+  "default.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  113
+  '(663 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/howard/tr/Rakefile"
+  "Rakefile<5>"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1237
+  '(1651 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/howard/tr/config/test.rb"
+  "test.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  41
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/howard/tr/versapay/migrate/account.rb"
+  "acc-mig"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  352
+  '(4900 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/howard/ass/lib/ass/serializers.rb"
+  "serializers.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  49
+  '(1 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . mule-utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/howard/ass/lib/ass.rb"
+  "ass.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  570
+  '(155 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/howard/tr/run/common.rb"
+  "common.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1
+  '(1 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/howard/tr/versapay.rb"
+  "versapay.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  298
+  '(1060 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/run/servers.rb"
+  "servers.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  191
+  '(69 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/migrate.rb"
+  "mig"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  2137
+  '(2165 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . mule-utf-8-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/migrate/helpers/foreign_keys.rb"
+  "foreign_keys.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1
+  '(1005 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/db/migration.rb"
+  "mig-db"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  250
+  '(518 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . mule-utf-8-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/db/account.rb"
+  "acc-db"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1
+  '(4797 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/README"
+  "README<2>"
+  'fundamental-mode
+  '(icicle-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/db/merchant.rb"
+  "mer-db"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  6022
+  '(25 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/migrate/merchant.rb"
+  "mer-mig"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1047
+  '(1866 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . mule-utf-8-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/run/db-setup.rb"
+  "db-setup.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  150
+  '(87 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/run/db-migrate.rb"
+  "db-migrate.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  44
+  '(1 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/spec/migrate_spec.rb"
+  "mig-spec"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1954
+  '(2014 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . mule-utf-8-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/run/console.rb"
+  "console.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  155
+  '(1 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "migrate"
+  'dired-mode
+  '(icicle-mode)
+  364
+  '(nil nil)
+  t
+  '("/home/howard/tr/versapay/migrate/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/spec/api_spec.rb"
+  "api_spec.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  48
+  '(1 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/db/login.rb"
+  "login-db"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  22
+  '(22 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/migrate/eft.rb"
+  "eft-mig"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1199
+  '(1301 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/migrate/core.rb"
+  "core-mig"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  93
+  '(1600 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/db/core.rb"
+  "core-db"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1569
+  '(24 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/migrate/orbital.rb"
+  "orb-mig"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  174
+  '(135 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/db/orbital.rb"
+  "orb-db"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  577
+  '(577 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/db/eft.rb"
+  "eft-db"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  98
+  '(97 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/config.rb"
+  "config.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  39
+  '(35 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/migrate/login.rb"
+  "login-mig"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  39
+  '(1 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/migrate/secure_storage.rb"
+  "ss-mig"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  414
+  '(449 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/db/secure_storage.rb"
+  "ss-db"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1
+  '(1013 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/mq/account/credit_card.rb"
+  "cc-mq"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  223
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/mq/login.rb"
+  "login-mq"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1019
+  '(1 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/mq/account/account.rb"
+  "acc-mq"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  948
+  '(1303 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/mq.rb"
+  "mq.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  106
+  '(106 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/api.rb"
+  "api.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  131
+  '(128 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/db.rb"
+  "db.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  288
+  '(271 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/foo.rb"
+  "foo.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  423
+  '(196 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "db"
+  'dired-mode
+  '(icicle-mode)
+  726
+  '(nil nil)
+  t
+  '("/home/howard/tr/versapay/db/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "versapay"
+  'dired-mode
+  '(icicle-mode)
+  768
+  '(nil nil)
+  t
+  '("/home/howard/tr/versapay/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/spec/mq/account_spec.rb"
+  "acc-spec"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  51
+  '(1 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/build/001-deploy.rb"
+  "001-deploy.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  201
+  '(94 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/design"
+  "design"
+  'fundamental-mode
+  '(icicle-mode)
+  520
+  '(677 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/bert/test/decoder_test.rb"
+  "decoder_test.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  460
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/bert/test/bert_test.rb"
+  "bert_test.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1827
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/spec/support/mq_response_helper.rb"
+  "mq_response_helper.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  5890
+  '(1 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/spec/spec_helper.rb"
+  "spec_helper.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  205
+  '(306 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/ass/spec/ass_spec.rb"
+  "ass_spec.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  4146
+  '(4168 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/gems"
+  "gems"
+  'fundamental-mode
+  '(icicle-mode)
+  208
+  '(188 t)
+  nil
+  nil
+  '((buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/bert/lib/bert/decode.rb"
+  "decode.rb"
+  'ruby-mode
+  '(view-mode icicle-mode ruby-electric-mode)
+  5318
+  '(351 t)
+  t
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/bert/lib/bert/types.rb"
+  "types.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "bert<2>"
+  'dired-mode
+  '(icicle-mode)
+  302
+  '(nil nil)
+  t
+  '("/home/howard/build/bert/lib/bert/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "lib<9>"
+  'dired-mode
+  '(icicle-mode)
+  238
+  '(nil nil)
+  t
+  '("/home/howard/build/bert/lib/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "bert"
+  'dired-mode
+  '(icicle-mode)
+  662
+  '(nil nil)
+  t
+  '("/home/howard/build/bert/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/home/howard/w/diary2009_12.txt"
+  "diary2009_12.txt"
+  'text-mode
+  '(icicle-mode)
+  767
+  '(231 t)
+  nil
+  nil
+  '((buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/.irbrc"
+  ".irbrc"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  74
+  '(261 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/api/account/credit_card.rb"
+  "cc-api"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  2767
+  '(3026 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (case-fold-search . t)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/.irb-history"
+  ".irb-history"
+  'fundamental-mode
+  '(icicle-mode)
+  1734
+  '(1 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/w/diary2009_11.txt"
+  "diary2009_11.txt"
+  'text-mode
+  '(icicle-mode)
+  39588
+  '(33142 t)
+  nil
+  nil
+  '((buffer-file-coding-system . mule-utf-8-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/bond/lib/bond/readline.rb"
+  "readline.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  361
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/bond/lib/bond/completion.rb"
+  "completion.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  283
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/bond/lib/bond/agent.rb"
+  "agent.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  2363
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/bond/lib/bond.rb"
+  "bond.rb"
+  'ruby-mode
+  '(view-mode icicle-mode ruby-electric-mode)
+  1
+  '(7383 t)
+  t
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "lib<8>"
+  'dired-mode
+  '(icicle-mode)
+  294
+  '(nil nil)
+  t
+  '("/home/howard/build/bond/lib/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "bond"
+  'dired-mode
+  '(icicle-mode)
+  482
+  '(nil nil)
+  t
+  '("/home/howard/build/bond/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/api/account/business.rb"
+  "bus-api"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  2345
+  '(2176 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (case-fold-search . t)))
+
+(desktop-append-buffer-args 206
+  nil
+  "rubish<2>"
+  'dired-mode
+  '(icicle-mode)
+  564
+  '(nil nil)
+  t
+  '("/home/howard/rubish/lib/rubish/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "lib<7>"
+  'dired-mode
+  '(icicle-mode)
+  237
+  '(nil nil)
+  t
+  '("/home/howard/rubish/lib/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "rubish"
+  'dired-mode
+  '(icicle-mode)
+  480
+  '(nil nil)
+  t
+  '("/home/howard/rubish/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/home/howard/el/save/.emacs.desktop"
+  ".emacs.desktop"
+  'emacs-lisp-mode
+  '(icicle-mode)
+  3301
+  '(6090 t)
+  nil
+  nil
+  '((buffer-file-coding-system . emacs-mule-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/spec/mq/credit_card_spec.rb"
+  "cc-spec"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  7047
+  '(1 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "config<5>"
+  'dired-mode
+  '(icicle-mode)
+  184
+  '(nil nil)
+  t
+  '("/home/howard/tr/config/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/mq/account/business.rb"
+  "bus-mq"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  599
+  '(506 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/api/account/account.rb"
+  "acc-api"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  608
+  '(1957 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (case-fold-search . t)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/spec/mq/address_spec.rb"
+  "add-spec"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  2867
+  '(1678 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/mq/account.rb"
+  "account.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1
+  '(264 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "account"
+  'dired-mode
+  '(icicle-mode)
+  246
+  '(nil nil)
+  t
+  '("/home/howard/tr/versapay/mq/account/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/api/account/address.rb"
+  "add-api"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  2116
+  '(2068 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (case-fold-search . t)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/config/staging.rb"
+  "staging.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/spec/spec_init.rb"
+  "spec_init.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  422
+  '(422 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "mq"
+  'dired-mode
+  '(icicle-mode)
+  370
+  '(nil nil)
+  t
+  '("/home/howard/build/amqp/lib/mq/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/api/account/bank_account.rb"
+  "ba-api"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1290
+  '(950 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (case-fold-search . t)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/www/app/models/active_ass.rb"
+  "active_ass.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1433
+  '(1334 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "design<2>"
+  'dired-mode
+  '(icicle-mode)
+  197
+  '(nil nil)
+  t
+  '("/home/howard/build/chef/chef/docs/design/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/api/core.rb"
+  "core-api"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1164
+  '(1189 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "cookbooks"
+  'dired-mode
+  '(icicle-mode)
+  1875
+  '(1822 t)
+  t
+  '("/home/howard/build/cookbooks/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/chef/chef/docs/recipe.rb"
+  "recipe.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1456
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "docs"
+  'dired-mode
+  '(icicle-mode)
+  306
+  '(nil nil)
+  t
+  '("/home/howard/build/chef/chef/docs/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "chef<2>"
+  'dired-mode
+  '(icicle-mode)
+  422
+  '(nil nil)
+  t
+  '("/home/howard/build/chef/chef/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "chef"
+  'dired-mode
+  '(icicle-mode)
+  304
+  '(nil nil)
+  t
+  '("/home/howard/build/chef/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "chef-server"
+  'dired-mode
+  '(icicle-mode)
+  196
+  '(nil nil)
+  t
+  '("/home/howard/build/chef/chef-server/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/ohai/lib/ohai/system.rb"
+  "system.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1036
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/ohai/spec/ohai/plugins/erlang_spec.rb"
+  "erlang_spec.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1053
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/ohai/spec/ohai/plugins/ruby_spec.rb"
+  "ruby_spec.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1708
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/ohai/spec/ohai/system_spec.rb"
+  "system_spec.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  2706
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/ohai/spec/ohai_spec.rb"
+  "ohai_spec.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/api/merchant.rb"
+  "mer-api"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  502
+  '(502 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/config/dev.rb"
+  "dev.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  105
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/rantly/Rakefile"
+  "Rakefile<4>"
+  'fundamental-mode
+  '(icicle-mode)
+  230
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/.gitconfig"
+  ".gitconfig"
+  'fundamental-mode
+  '(icicle-mode)
+  375
+  '(277 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "rantly"
+  'dired-mode
+  '(icicle-mode)
+  636
+  '(nil nil)
+  t
+  '("/home/howard/rantly/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/home/howard/ruby/rant/.git/config"
+  "config<4>"
+  'conf-unix-mode
+  '(icicle-mode)
+  149
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/ass/Rakefile"
+  "Rakefile<2>"
+  'fundamental-mode
+  '(icicle-mode)
+  228
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/matchmaker/matchmaker.gemspec"
+  "matchmaker.gemspec"
+  'fundamental-mode
+  '(icicle-mode)
+  795
+  '(1 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/.git/config"
+  "config<3>"
+  'conf-unix-mode
+  '(icicle-mode)
+  218
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/mq/event.rb"
+  "eve-mq"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  377
+  '(44 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/api/event.rb"
+  "eve-api"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  234
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/ass/spec/rpc_spec.rb"
+  "rpc_spec.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  808
+  '(53 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/ass/spec/actor_spec.rb"
+  "actor_spec.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  53
+  '(1 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/ass/lib/ass/client.rb"
+  "client.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/ass/lib/ass/actor.rb"
+  "actor.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  751
+  '(799 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/mq/merchant.rb"
+  "mer-mq"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  758
+  '(707 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/spec/event_spec.rb"
+  "eve-spec"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  109
+  '(1 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/spec/eft_spec.rb"
+  "eft-spec"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  48
+  '(1 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/ass/lib/ass/topic.rb"
+  "topic.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  286
+  '(530 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/db/log.rb"
+  "log-db"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  304
+  '(1 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/amqp/lib/mq/queue.rb"
+  "queue.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  4793
+  '(12113 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/ass/lib/ass/callback_factory.rb"
+  "callback_factory.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1236
+  '(1404 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/spec/core_spec.rb"
+  "core-spec"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  94
+  '(29 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/ass/todo-ass.txt"
+  "todo-ass.txt"
+  'text-mode
+  '(icicle-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/amqp/lib/mq/exchange.rb"
+  "exchange.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  9184
+  '(1 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/el/_keybind.el"
+  "_keybind.el"
+  'emacs-lisp-mode
+  '(icicle-mode)
+  11652
+  '(11651 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "lib<6>"
+  'dired-mode
+  '(icicle-mode)
+  290
+  '(nil nil)
+  t
+  '("/home/howard/ass/lib/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "lib<5>"
+  'dired-mode
+  '(icicle-mode)
+  414
+  '(nil nil)
+  t
+  '("/home/howard/build/amqp/lib/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/home/howard/my-blog/blog.rb"
+  "blog.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  790
+  '(20 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/acc/rec.freudian"
+  "rec.freudian"
+  'fundamental-mode
+  '(icicle-mode)
+  1804
+  '(1744 t)
+  nil
+  nil
+  '((buffer-file-coding-system . mule-utf-8-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/my-blog/hacking/rant-lovely.markdown"
+  "rant-lovely"
+  'markdown-mode
+  '(icicle-mode)
+  105
+  '(2493 t)
+  nil
+  nil
+  '((buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/dress/design"
+  "dress-design"
+  'fundamental-mode
+  '(icicle-mode)
+  20
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/dress/lib/dress.rb"
+  "dress.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  489
+  '(1759 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/blog/index.html"
+  "index.html"
+  'html-mode
+  '(icicle-mode)
+  609
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/my-blog/layout/home.html"
+  "home.html"
+  'html-mode
+  '(icicle-mode)
+  842
+  '(2208 t)
+  nil
+  nil
+  '((buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  nil
+  "layout"
+  'dired-mode
+  '(icicle-mode)
+  186
+  '(nil nil)
+  t
+  '("/home/howard/my-blog/layout/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "my-blog"
+  'dired-mode
+  '(icicle-mode)
+  419
+  '(nil nil)
+  t
+  '("/home/howard/my-blog/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/home/howard/blog/_layouts/default.html"
+  "default.html"
+  'html-mode
+  '(icicle-mode)
+  2213
+  '(1 t)
+  nil
+  nil
+  '((buffer-file-coding-system . mule-utf-8-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "_layouts"
+  'dired-mode
+  '(icicle-mode)
+  240
+  '(nil nil)
+  t
+  '("/home/howard/blog/_layouts/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/home/howard/blog/hacking/_posts/2009-04-15-rant-lovely.textile"
+  "2009-04-15-rant-lovely.textile"
+  'fundamental-mode
+  '(icicle-mode)
+  2453
+  '(1 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "hacking"
+  'dired-mode
+  '(icicle-mode)
+  184
+  '(nil nil)
+  t
+  '("/home/howard/my-blog/hacking/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/home/howard/my-blog/design"
+  "blog-design"
+  'markdown-mode
+  '(icicle-mode)
+  405
+  '(342 t)
+  nil
+  nil
+  '((buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/el/_func.el"
+  "_func.el"
+  'emacs-lisp-mode
+  '(icicle-mode)
+  22882
+  '(22653 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/usr/local/lib/ruby/gems/1.8/gems/nokogiri-1.4.0/ext/nokogiri/nokogiri.h"
+  "nokogiri.h"
+  'c-mode
+  '(abbrev-mode icicle-mode)
+  163
+  '(nil nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/usr/local/lib/ruby/gems/1.8/gems/nokogiri-1.4.0/ext/nokogiri/xml_xpath_context.c"
+  "xml_xpath_context.c"
+  'c-mode
+  '(abbrev-mode icicle-mode)
+  113
+  '(6302 t)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/usr/local/lib/ruby/gems/1.8/gems/nokogiri-1.4.0/ext/nokogiri/xml_xpath.h"
+  "xml_xpath.h"
+  'c-mode
+  '(abbrev-mode icicle-mode)
+  102
+  '(nil nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/usr/local/lib/ruby/gems/1.8/gems/nokogiri-1.4.0/ext/nokogiri/xml_xpath.c"
+  "xml_xpath.c"
+  'c-mode
+  '(abbrev-mode icicle-mode)
+  693
+  '(nil nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/usr/local/lib/ruby/gems/1.8/gems/nokogiri-1.4.0/lib/nokogiri/xml/node.rb"
+  "node.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  4628
+  '(1 t)
+  t
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/my-blog/r.html"
+  "r.html"
+  'html-mode
+  '(icicle-mode)
+  101
+  '(4 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "jekyll"
+  'dired-mode
+  '(icicle-mode)
+  724
+  '(nil nil)
+  t
+  '("/home/howard/build/jekyll/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/home/howard/rubish/README.markdown"
+  "README.markdown<2>"
+  'markdown-mode
+  '(icicle-mode)
+  8424
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/matchmaker/README.markdown"
+  "README.markdown"
+  'markdown-mode
+  '(icicle-mode)
+  1079
+  '(7163 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (case-fold-search . t)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/dress/README"
+  "README"
+  'markdown-mode
+  '(icicle-mode)
+  1773
+  '(1773 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/p/el/lib/align.el"
+  "align.el"
+  'emacs-lisp-mode
+  '(icicle-mode)
+  2378
+  '(29858 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/dress/foo.rb"
+  "foo.rb<2>"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  277
+  '(197 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/dress/foo.markdown"
+  "foo.markdown"
+  'fundamental-mode
+  '(icicle-mode)
+  47
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/el/lib/markdown-mode.el"
+  "markdown-mode.el"
+  'emacs-lisp-mode
+  '(icicle-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/usr/share/emacs/22.1/lisp/progmodes/cc-defs.el.gz"
+  "cc-defs.el.gz"
+  'emacs-lisp-mode
+  '(icicle-mode)
+  11608
+  '(11608 t)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/dress/Rakefile"
+  "Rakefile<3>"
+  'fundamental-mode
+  '(icicle-mode)
+  136
+  '(172 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/dress/spec/dress_spec.rb"
+  "dress_spec.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  903
+  '(1377 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/dress/.git/config"
+  "config<2>"
+  'conf-unix-mode
+  '(icicle-mode)
+  112
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/nokogiri/lib/nokogiri.rb"
+  "nokogiri.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . mule-utf-8-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "lib<2>"
+  'dired-mode
+  '(icicle-mode)
+  302
+  '(nil nil)
+  t
+  '("/home/howard/build/nokogiri/lib/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "nokogiri"
+  'dired-mode
+  '(icicle-mode)
+  745
+  '(nil nil)
+  t
+  '("/home/howard/build/nokogiri/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/home/howard/dresser/spec/dresser_spec.rb"
+  "dresser_spec.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  81
+  '(106 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/dresser/lib/dresser.rb"
+  "dresser.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  983
+  '(1 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/dresser/spec/spec_helper.rb"
+  "spec_helper.rb<3>"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  112
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "dresser"
+  'dired-mode
+  '(icicle-mode)
+  532
+  '(nil nil)
+  t
+  '("/home/howard/dresser/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/home/howard/matchmaker/Rakefile"
+  "Rakefile"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/matchmaker/spec/spec_helper.rb"
+  "spec_helper.rb<2>"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/matchmaker/spec/case_spec.rb"
+  "case_spec.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1
+  '(8728 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/duckument/design"
+  "duck-design"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  399
+  '(399 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . mule-utf-8-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "duckument"
+  'dired-mode
+  '(icicle-mode)
+  236
+  '(nil nil)
+  t
+  '("/home/howard/duckument/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/home/howard/.bash_profile"
+  ".bash_profile"
+  'sh-mode
+  '(icicle-mode)
+  534
+  '(534 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/rip/lib/rip/package.rb"
+  "package.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1
+  '(978 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/rip/lib/rip/packages/git_package.rb"
+  "git_package.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  595
+  '(572 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/rip/lib/rip/sh/git.rb"
+  "git.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  171
+  '(1 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/rip/lib/rip/package_manager.rb"
+  "package_manager.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  3537
+  '(2753 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/rip/lib/rip/installer.rb"
+  "installer.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  3514
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/rip/lib/rip.rb"
+  "rip.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  824
+  '(543 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/rubygems-1.3.5/lib/rubygems.rb"
+  "rubygems.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  12967
+  '(11920 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "lib<4>"
+  'dired-mode
+  '(icicle-mode)
+  446
+  '(nil nil)
+  t
+  '("/home/howard/build/rubygems-1.3.5/lib/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "rubygems-1.3.5"
+  'dired-mode
+  '(icicle-mode)
+  703
+  '(nil nil)
+  t
+  '("/home/howard/build/rubygems-1.3.5/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "rip<2>"
+  'dired-mode
+  '(icicle-mode)
+  481
+  '(1 t)
+  t
+  '("/home/howard/build/rip/lib/rip/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "lib<3>"
+  'dired-mode
+  '(icicle-mode)
+  237
+  '(nil nil)
+  t
+  '("/home/howard/build/rip/lib/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "rip"
+  'dired-mode
+  '(icicle-mode)
+  537
+  '(nil nil)
+  t
+  '("/home/howard/build/rip/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/home/howard/.gemrc"
+  ".gemrc"
+  'fundamental-mode
+  '(icicle-mode)
+  64
+  '(64 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/mq/eft.rb"
+  "eft-mq"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  2459
+  '(1854 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/w/tutorial.ministudio"
+  "tutorial.ministudio"
+  'fundamental-mode
+  '(icicle-mode)
+  102
+  '(1 t)
+  nil
+  nil
+  '((buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/api/account.rb"
+  "account.rb<3>"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  882
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/el/_icicle.el"
+  "_icicle.el"
+  'emacs-lisp-mode
+  '(icicle-mode)
+  1895
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . mule-utf-8-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/rip/lib/rip/sh/gem.rb"
+  "gem.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  590
+  '(227 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/rip/lib/rip/packages/file_package.rb"
+  "file_package.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  669
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/rip/lib/rip/packages/http_package.rb"
+  "http_package.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  408
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/rip/lib/rip/package_api.rb"
+  "package_api.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1570
+  '(1750 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/rip/lib/rip/commands.rb"
+  "commands.rb"
+  'ruby-mode
+  '(view-mode icicle-mode ruby-electric-mode)
+  926
+  '(1444 t)
+  t
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/.rip/rip-commands/irb.rb"
+  "irb.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  87
+  '(168 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/rip/bin/rip"
+  "rip<3>"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/rip/lib/rip/commands/show.rb"
+  "show.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  257
+  '(1 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/rip/lib/rip/help.rb"
+  "help.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  545
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/scratch.rb"
+  "scratch.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  54
+  '(54 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "rip-commands"
+  'dired-mode
+  '(icicle-mode)
+  189
+  '(nil nil)
+  t
+  '("/home/howard/.rip/rip-commands/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  ".rip"
+  'dired-mode
+  '(icicle-mode)
+  231
+  '(nil nil)
+  t
+  '("/home/howard/.rip/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "bin"
+  'dired-mode
+  '(icicle-mode)
+  183
+  '(nil nil)
+  t
+  '("/home/howard/build/rip/bin/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/sizzle/sizzle.js"
+  "sizzle.js"
+  'javascript-mode
+  '(icicle-mode)
+  16204
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/build/nokogiri/lib/nokogiri/css/parser.y"
+  "parser.y"
+  'c-mode
+  '(abbrev-mode icicle-mode)
+  1437
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "css"
+  'dired-mode
+  '(icicle-mode)
+  375
+  '(nil nil)
+  t
+  '("/home/howard/build/nokogiri/lib/nokogiri/css/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "nokogiri<2>"
+  'dired-mode
+  '(icicle-mode)
+  251
+  '(nil nil)
+  t
+  '("/home/howard/build/nokogiri/lib/nokogiri/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/mq/core.rb"
+  "core-mq"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  10631
+  '(12825 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/spec/mq/bank_account_spec.rb"
+  "ba-spec"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1
+  '(553 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/spec/mq_spec.rb"
+  "mq_spec.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  51
+  '(1712 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . mule-utf-8)))
+
+(desktop-append-buffer-args 206
+  nil
+  "support"
+  'dired-mode
+  '(icicle-mode)
+  239
+  '(nil nil)
+  t
+  '("/home/howard/tr/spec/support/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/home/howard/matchmaker/lib/matchmaker.rb"
+  "matchmaker.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  1447
+  '(4014 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/drain.rb"
+  "drain.rb"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  169
+  '(1 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/api/orbital.rb"
+  "orb-api"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  255
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/todo"
+  "todo"
+  'fundamental-mode
+  '(icicle-mode)
+  422
+  '(1 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/tr/versapay/api/eft.rb"
+  "eft-api"
+  'ruby-mode
+  '(icicle-mode ruby-electric-mode)
+  281
+  '(258 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "lib"
+  'dired-mode
+  '(icicle-mode)
+  241
+  '(nil nil)
+  t
+  '("/home/howard/matchmaker/lib/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "matchmaker"
+  'dired-mode
+  '(icicle-mode)
+  416
+  '(234 t)
+  t
+  '("/home/howard/matchmaker/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/home/howard/.git/config"
+  "config"
+  'conf-unix-mode
+  '(icicle-mode)
+  157
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/howard/el/lib/ee/view/buffers.ee"
+  "buffers.ee"
+  'emacs-lisp-mode
+  '(icicle-mode)
+  7695
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "default"
+  'dired-mode
+  '(icicle-mode)
+  213
+  '(nil nil)
+  t
+  '("/home/howard/build/cookbooks/glassfish/templates/default/")
+  nil)
+
