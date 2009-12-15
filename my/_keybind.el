@@ -1,13 +1,19 @@
-;; a cleaner way to get around the C-i == TAB identity confusion.
-(keyboard-translate ?\C-i ?\C->)
+(case (my-os)
+  (Linux
+   ;; a cleaner way to get around the C-i == TAB identity confusion.
+   (keyboard-translate ?\C-i ?\C->))
+  (Darwin
+   (keyboard-translate ?\C-i ?\C->)
+   (setq mac-command-modifier 'control)
+   (setq mac-option-modifier 'super)
+   (setq mac-control-modifier 'meta)
+   ))
+
 (defvar my-C-i [?\C->])
 (defvar C-i [?\C->])
 (defvar my-f11-key [f11])
 (defvar my-f12-key [f12])
 
-(my-for-os "SunOS"
-           (setq my-f11-key [SunF36])
-           (setq my-f12-key [SunF37]))
 
 ;;;; emacs prefix-keys
 ;; esc-map is the global keymap for the <ESC> prefix key. Thus, the global definitions of all meta characters are actually found here. This map is also the function definition of ESC-prefix.
