@@ -4,7 +4,6 @@
 (add-to-list 'load-path "~/el/lib/")
 
 (require 'cl)
-(require 'pabbrev)
 
 ;; settings
 (load "_config.el")
@@ -22,12 +21,11 @@
 (load "_ido.el")
 (load "_dir.el")
 
+;; langs
 (load "_lisp.el")
 (load "_elisp.el")
 (load "_lisp-indent.el")
-       
 (load "_ruby.el")
-
 (load "_erlang.el")
 
 (custom-set-variables
