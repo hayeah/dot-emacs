@@ -3,7 +3,7 @@
 (require 'color-theme)
 (color-theme-goldenrod)
 
-
+(setq transient-mark-mode nil)
 ;; Free up screen real-estate
 ;;
 (setq default-frame-alist

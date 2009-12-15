@@ -4,9 +4,9 @@
    (keyboard-translate ?\C-i ?\C->))
   (Darwin
    (keyboard-translate ?\C-i ?\C->)
-   (setq mac-command-modifier 'control)
+   (setq mac-command-modifier 'm)
    (setq mac-option-modifier 'super)
-   (setq mac-control-modifier 'meta)
+   (setq mac-control-modifier 'control)
    ))
 
 (defvar my-C-i [?\C->])
