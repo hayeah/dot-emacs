@@ -693,7 +693,7 @@ starting at (point)."
 (defun my-os ()
   ;; strip newline
   (let ((s (shell-command-to-string "uname")))
-    (substring s 0 (1- (length s)))))
+    (intern (substring s 0 (1- (length s))))))
 
 (defmacro* my-for-os (os &body body)
   (if (equal (my-os) os)

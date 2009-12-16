@@ -4,7 +4,7 @@
    (keyboard-translate ?\C-i ?\C->))
   (Darwin
    (keyboard-translate ?\C-i ?\C->)
-   (setq mac-command-modifier 'm)
+   (setq mac-command-modifier 'meta)
    (setq mac-option-modifier 'super)
    (setq mac-control-modifier 'control)
    ))
