@@ -17,9 +17,9 @@
 ;; modes
 (load "_ee.el")
 
-(load "_icicle.el")
+;;(load "_icicle.el")
 ;;(load "_ido.el")
-(load "_dir.el")
+;;(load "_dir.el")
 
 ;; langs
 (load "_lisp.el")

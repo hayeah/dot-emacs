@@ -3,6 +3,8 @@
 (require 'color-theme)
 (color-theme-goldenrod)
 
+(setq ring-bell-function 'ignore)
+
 (setq transient-mark-mode nil)
 ;; Free up screen real-estate
 ;;

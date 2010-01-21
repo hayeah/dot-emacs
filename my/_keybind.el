@@ -421,8 +421,8 @@
   ;;          ((kbd "C-M-q") 'bookmark-save)
   ;;          ((kbd "s-q") 'list-bookmarks)
 
-  ((kbd "<tab>") 'my-indent-or-complete)
-  ((kbd "C-<tab>") 'indent-for-tab-command)
+  ;;((kbd "<tab>") 'my-indent-or-complete)
+  ;;((kbd "C-<tab>") 'indent-for-tab-command)
 
   ((kbd "C-t") 'transpose-lines)
   )
