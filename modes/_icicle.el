@@ -1,5 +1,14 @@
 (add-to-list 'load-path "~/el/lib/icicles/")
+
+(require 'icicles)
+(icicle-mode 1)
+
+(old-read-file-name "foo" nil "foobar" nil nil)
+(setq insert-default-directory nil)
+
+
 (setq icicle-download-dir "~/el/lib/icicles/")
+
 (require 'icicles-install)
 
 (add-hook 'icicle-mode-hook 'my-icicle-keybind)
@@ -89,8 +98,12 @@
 
 
 ;; this has to come after for keybindings to work for restored buffers.
-(require 'icicles)
-(icicle-mode 1)
+
+
+
+;;(fboundp 2C-command)
+
+;;(symbol-function '2C-command)
 
 (custom-set-variables
  ;; i can't get these two to work, damn it.

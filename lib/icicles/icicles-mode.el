@@ -1724,10 +1724,13 @@ keymap.  If KEYMAP-VAR is not bound to a keymap, it is ignored."
   "Bind `S-TAB' to `icicle-complete-keys' in keymaps accessible from MAP."
   (dolist (key+map (accessible-keymaps map))
     (let ((map (cdr key+map)))
-      (when (and (keymapp map) (not (stringp (car-safe (last map))))) ; Try to exclude menu maps.
+      (when (and (keymapp map)
+		 (not (symbolp map)) ; keymap that is a function
+		 (not (stringp (car-safe (last map))))) ; Try to exclude menu maps.
         (dolist (key icicle-generic-S-tab-keys)
           (unless (lookup-key map key)
-            (condition-case nil (define-key map key 'icicle-complete-keys) (error nil))))))))
+            (condition-case nil (define-key map key 'icicle-complete-keys)
+	      (error nil))))))))
 
 (defun icicle-restore-non-completion-keys ()
   "Restore some bindings changed by `icicle-rebind-non-completion-keys'."
