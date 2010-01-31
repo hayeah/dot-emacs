@@ -1572,7 +1572,7 @@ Used on `pre-command-hook'."
   "Bind some keys in maps other than minibuffer maps and `icicle-mode-map'"
 
   ;; Bind Isearch keys.
-  (icicle-bind-isearch-keys)
+  ;;(icicle-bind-isearch-keys)
 
   ;; Bind keys in Comint mode.
   (when (boundp 'comint-mode-map)
