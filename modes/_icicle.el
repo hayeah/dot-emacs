@@ -1,81 +1,83 @@
 (add-to-list 'load-path "~/el/lib/icicles/")
-
 (require 'icicles)
 (icicle-mode 1)
-
-(old-read-file-name "foo" nil "foobar" nil nil)
 (setq insert-default-directory nil)
-
-
-(setq icicle-download-dir "~/el/lib/icicles/")
-
-(require 'icicles-install)
-
-(add-hook 'icicle-mode-hook 'my-icicle-keybind)
-
-(defvar minibuffer-local-filename-completion-map (make-sparse-keymap))
+(setq icicle-reminder-prompt-flag nil)
 
 
 
-(defun my-icicle-keybind ()
-  (my-defkeys icicle-mode-map
-	      ([f5] nil))
+;;(setq icicle-cycling-respects-completion-mode-flag t)
+
+
+;; (setq icicle-download-dir "~/el/lib/icicles/")
+
+;; (require 'icicles-install)
+
+;; (add-hook 'icicle-mode-hook 'my-icicle-keybind)
+
+;; (defvar minibuffer-local-filename-completion-map (make-sparse-keymap))
+
+
+
+;; (defun my-icicle-keybind ()
+;;   (my-defkeys icicle-mode-map
+;; 	      ([f5] nil))
   
-  (my-defkeys (minibuffer-local-completion-map minibuffer-local-must-match-map minibuffer-local-filename-completion-map)
-	      ([?\M-n] nil)
-	      ([?\r] 'icicle-exit-minibuffer)
-	      ([tab] 'icicle-apropos-complete)
-	      ;; progressive completion
-	      (prefix [escape]
-		      ;; refinement
-		      ([escape] 'icicle-narrow-candidates)
-		      ([?=] 'icicle-candidate-set-union)
-		      ([?-] 'icicle-candidate-set-difference)
-		      ([?`] 'icicle-candidate-set-complement)
-		      ;; save/retrieve
-		      ([?,] 'icicle-candidate-set-save)
-		      ([?\C-,] 'icicle-candidate-set-save-to-variable)
-		      ([?.] 'icicle-candidate-set-retrieve)
-		      ([?\C-.] 'icicle-candidate-set-retrieve-from-variable)
-		      ;;([?s] 'icicle-candidate-set-swap)
-		      )
-	      ([?\C-k] 'icicle-next-apropos-candidate)
-	      (my-C-i 'icicle-previous-apropos-candidate) 
-	      ;; completion history
-	      (prefix [f1]
-		      ;;([f1] 'icicle-insert-history-element)
-		      ;;([] 'icicle-keep-only-past-inputs)
-		      ([f1] 'icicle-history)
-		      )
-	      ((kbd "<C-return>") 'icicle-candidate-action) ;; does a command to selected candidate
-	      ((kbd "<C-M-return>") 'icicle-all-candidates-action) ;; does multi-command to all candidates
-	      ([next] 'icicle-next-apropos-candidate-action)
-	      ([prior] 'icicle-previous-apropos-candidate-action)
-	      ([C-next] 'icicle-help-on-next-apropos-candidate) ;; shows associated help of a candidate
-	      ([C-prior] 'icicle-help-on-previous-apropos-candidate)
-	      ([?\C-r] 'icicle-toggle-regexp-quote)
-	      ((kbd "<s-return>") 'icicle-exit-minibuffer)
-	      )
-  )
+;;   (my-defkeys (minibuffer-local-completion-map minibuffer-local-must-match-map minibuffer-local-filename-completion-map)
+;; 	      ([?\M-n] nil)
+;; 	      ([?\r] 'icicle-exit-minibuffer)
+;; 	      ([tab] 'icicle-apropos-complete)
+;; 	      ;; progressive completion
+;; 	      (prefix [escape]
+;; 		      ;; refinement
+;; 		      ([escape] 'icicle-narrow-candidates)
+;; 		      ([?=] 'icicle-candidate-set-union)
+;; 		      ([?-] 'icicle-candidate-set-difference)
+;; 		      ([?`] 'icicle-candidate-set-complement)
+;; 		      ;; save/retrieve
+;; 		      ([?,] 'icicle-candidate-set-save)
+;; 		      ([?\C-,] 'icicle-candidate-set-save-to-variable)
+;; 		      ([?.] 'icicle-candidate-set-retrieve)
+;; 		      ([?\C-.] 'icicle-candidate-set-retrieve-from-variable)
+;; 		      ;;([?s] 'icicle-candidate-set-swap)
+;; 		      )
+;; 	      ([?\C-k] 'icicle-next-apropos-candidate)
+;; 	      (my-C-i 'icicle-previous-apropos-candidate) 
+;; 	      ;; completion history
+;; 	      (prefix [f1]
+;; 		      ;;([f1] 'icicle-insert-history-element)
+;; 		      ;;([] 'icicle-keep-only-past-inputs)
+;; 		      ([f1] 'icicle-history)
+;; 		      )
+;; 	      ((kbd "<C-return>") 'icicle-candidate-action) ;; does a command to selected candidate
+;; 	      ((kbd "<C-M-return>") 'icicle-all-candidates-action) ;; does multi-command to all candidates
+;; 	      ([next] 'icicle-next-apropos-candidate-action)
+;; 	      ([prior] 'icicle-previous-apropos-candidate-action)
+;; 	      ([C-next] 'icicle-help-on-next-apropos-candidate) ;; shows associated help of a candidate
+;; 	      ([C-prior] 'icicle-help-on-previous-apropos-candidate)
+;; 	      ([?\C-r] 'icicle-toggle-regexp-quote)
+;; 	      ((kbd "<s-return>") 'icicle-exit-minibuffer)
+;; 	      )
+;;   )
 
 
-;; list buffers by access time
-(setq icicle-buffer-sort 'icicle-buffer-time-sort)
+;; ;; list buffers by access time
+;; (setq icicle-buffer-sort 'icicle-buffer-time-sort)
 
-(setq icicle-buffer-no-match-regexp
-      (regexp-opt (list "menubar.ee")))
+;; (setq icicle-buffer-no-match-regexp
+;;       (regexp-opt (list "menubar.ee")))
 
-(defun icicle-buffer-time-sort (b1 b2)
-  "Compare two buffers by their access time. *-buffers to the end of the list."
-  (flet ((more-recent (b1 b2)
-	   (> (with-current-buffer b1
-		(float-time buffer-display-time))
-	      (with-current-buffer b2
-		(float-time buffer-display-time)))
-	   ))
-    (if (string-match "^\\*" b1)
-	(and (string-match "^\\*" b2) (more-recent b1 b2))
-	(or (string-match "^\\*" b2) (more-recent b1 b2)))))
+;; (defun icicle-buffer-time-sort (b1 b2)
+;;   "Compare two buffers by their access time. *-buffers to the end of the list."
+;;   (flet ((more-recent (b1 b2)
+;; 	   (> (with-current-buffer b1
+;; 		(float-time buffer-display-time))
+;; 	      (with-current-buffer b2
+;; 		(float-time buffer-display-time)))
+;; 	   ))
+;;     (if (string-match "^\\*" b1)
+;; 	(and (string-match "^\\*" b2) (more-recent b1 b2))
+;; 	(or (string-match "^\\*" b2) (more-recent b1 b2)))))
 
 
 
@@ -105,11 +107,9 @@
 
 ;;(symbol-function '2C-command)
 
-(custom-set-variables
- ;; i can't get these two to work, damn it.
- '(icicle--sort-function icicle-historical-alphabetic-p)
- '(icicle-alternative-sort-function icicle-case-string-less-p)
- )
+;; (custom-set-variables
+;;  ;; i can't get these two to work, damn it.
+;;  '(icicle--sort-function icicle-historical-alphabetic-p)
+;;  '(icicle-alternative-sort-function icicle-case-string-less-p)
+;;  )
 
-(setq icicle-cycling-respects-completion-mode-flag t)
-(setq icicle-reminder-prompt-flag nil)

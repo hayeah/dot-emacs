@@ -1896,6 +1896,7 @@ Optional argument NO-DISPLAY-P non-nil means do not display buffer
                                            icicle-last-input ; $$ Previously didn't allow -action's.
                                          (icicle-minibuffer-contents-from-minibuffer))
         icicle-input-fail-pos          nil)
+  ;(debug icicle-current-input)
   (when (icicle-file-name-input-p)
     (setq icicle-current-input (abbreviate-file-name icicle-current-input)))
   (unless (and (stringp icicle-current-input) (stringp icicle-last-input)
@@ -1934,6 +1935,7 @@ Optional argument NO-DISPLAY-P non-nil means do not display buffer
                                 icicle-last-completion-candidate
                                 (icicle-file-name-directory-w-default icicle-current-input))
                              icicle-last-completion-candidate)))
+	     (debug inserted)
              (insert inserted)
              (when (and (icicle-file-name-input-p)
                         (icicle-file-directory-p (icicle-abbreviate-or-expand-file-name inserted)))
