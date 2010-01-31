@@ -1,9 +1,11 @@
 (add-to-list 'load-path "~/el/lib/icicles/")
 (require 'icicles)
+
+(setq icicle-search-from-isearch-keys '())
+
 (icicle-mode 1)
 (setq insert-default-directory nil)
 (setq icicle-reminder-prompt-flag nil)
-
 
 
 ;;(setq icicle-cycling-respects-completion-mode-flag t)
