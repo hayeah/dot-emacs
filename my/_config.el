@@ -18,8 +18,8 @@
 	    (tool-bar-lines . 0)
 	    (line-spacing . 0))
 	  default-frame-alist))
-(fringe-mode (cons 0 0))
-(scroll-bar-mode -1)
+;;(fringe-mode (cons 0 0))
+;;(scroll-bar-mode -1)
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 

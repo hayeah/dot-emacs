@@ -339,7 +339,10 @@
   ((kbd "M-(") 'my-delete-matching-parens)
   ((kbd "C-(") 'my-wrap-region-in-parens)
 
-  ((kbd "M-s-l") 'kill-line))
+  ((kbd "M-s-l") 'kill-line)
+
+  ((kbd "M-`") nil)
+  )
 
 ;; line kill & yanks
 (defkeys global-map
