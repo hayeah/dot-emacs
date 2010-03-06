@@ -1,6 +1,7 @@
 
 (my-defkeys dired-mode-map
   ((kbd "C-o") nil)
+  (C-i nil)
   ((kbd "C-<return>") 'dired-find-file-other-window)
   ((kbd "C-j") 'dired-prev-dirline)
   ((kbd "C-l") 'dired-next-dirline)

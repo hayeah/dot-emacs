@@ -5,28 +5,32 @@
 
 (require 'cl)
 
-;; settings
-(load "_config.el")
+(condition-case load-error
+    (progn ;; settings
+      (load "_config.el")
 
-(load "_util.el")
-(load "_func.el")
-(load "_isearch-constraint.el")
+      (load "_util.el")
+      (load "_func.el")
+      (load "_isearch-constraint.el")
 
-(load "_keybind.el")
+      (load "_keybind.el")
 
-;; modes
-(load "_ee.el")
-(load "_icicle.el")
+      ;; modes
+      (load "_ee.el")
+      (load "_icicle.el")
 
-;;(load "_ido.el")
-;;(load "_dir.el")
+      ;;(load "_ido.el")
+      ;;(load "_dir.el")
 
-;; langs
-(load "_lisp.el")
-(load "_elisp.el")
-(load "_lisp-indent.el")
-(load "_ruby.el")
-(load "_erlang.el")
+      ;; langs
+      (load "_lisp.el")
+      (load "_elisp.el")
+      (load "_lisp-indent.el")
+      (load "_ruby.el")
+      (load "_erlang.el"))
+  (error (pr load-error)))
+
+(show-paren-mode t)
 
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
@@ -51,8 +55,8 @@
  '(paragraph-start "\\|[      ]*$\\|-+.*$")
  '(safe-local-variable-values (quote ((erlang-indent-level . 2))))
  '(save-place t nil (saveplace))
- '(show-paren-mode t nil (paren))
  '(tab-width 2))
+
 (custom-set-faces
   ;; custom-set-faces was added by Custom.
   ;; If you edit it by hand, you could mess it up, so be careful.

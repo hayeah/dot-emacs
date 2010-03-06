@@ -14,7 +14,6 @@
 (defvar my-f11-key [f11])
 (defvar my-f12-key [f12])
 
-
 ;;;; emacs prefix-keys
 ;; esc-map is the global keymap for the <ESC> prefix key. Thus, the global definitions of all meta characters are actually found here. This map is also the function definition of ESC-prefix.
 ;; help-map is the global keymap for the C-h prefix key.
@@ -30,13 +29,15 @@
 
 ;; ;; Translate the meta-chars to 0.
 ;; ;; ;; Meta-chars are those ranging from 128-255. It's old emacs thing, having to do with the bits won't fit in a string, so string cannot be used to represent event sequence.
-(setq meta-prefix-char 0) ;; 0 is the ASCII null, not used elsewhere.
-(define-key global-map [0] 'ESC-prefix) ;; bind 0 as the meta prefix map.
-(define-key global-map [27] (make-sparse-keymap)) ;; bind ESC to a new prefix map. This would break keybindings using 27. Should be rare.
-(define-key global-map [f1] (make-sparse-keymap))
-(define-key function-key-map [escape] nil) ;; don't translate escape to 27. Probably safer to bind [escape] then [27].
-(define-key global-map [escape] (make-sparse-keymap)) ;; also make escape a prefix key.
-(define-key global-map "\C-c" (make-keymap))
+
+;;;; Prefix Key Craziness
+;; (setq meta-prefix-char 0) ;; 0 is the ASCII null, not used elsewhere.
+;; (define-key global-map [0] 'ESC-prefix) ;; bind 0 as the meta prefix map.
+;; (define-key global-map [27] (make-sparse-keymap)) ;; bind ESC to a new prefix map. This would break keybindings using 27. Should be rare.
+;; (define-key global-map [f1] (make-sparse-keymap))
+;; (define-key function-key-map [escape] nil) ;; don't translate escape to 27. Probably safer to bind [escape] then [27].
+;; (define-key global-map [escape] (make-sparse-keymap)) ;; also make escape a prefix key.
+;; (define-key global-map "\C-c" (make-keymap))
 
 ;; it is probably good to for prefix
 ;; C-x -> f1
@@ -121,11 +122,7 @@
 	(run-with-idle-timer newb-exit-idle-time
 	 nil 'newb-exit-modal modal-map)))
 
-(defun newb-exit-modal (modal-map)
-  (cancel-timer newb-modal-idle-timer)
-  (set-keymap-parent modal-map nil)
-  (kill-local-variable 'overriding-local-map)
-  (message "Got out of modal."))
+
 
 
 (defmacro defkeys (&rest body)
@@ -141,6 +138,7 @@
   (prefix [f1]
 	  ;; (prefix [?o])
 	  ([f1] 'split-window-smartly)
+    ([?`] 'my-hide-temp-windows)
 	  ;;([f1] 'split-window-vertically)
 	  ;;([f2] 'split-window-horizontally)
 	  ([escape] 'delete-other-windows)
@@ -161,6 +159,8 @@
 		  ;;([?l] 'etags-list-tags)
 		  )
 	  ([?n] 'toggle-narrow-to-region)
+    ((kbd "<prior>") 'winner-redo)
+    ((kbd "<next>") 'winner-undo)
 	  (modal [?a]
 		 ;; TODO buffer scrolling
 		 (my-C-i 'enlarge-window)
@@ -227,7 +227,8 @@
 	  ;;([?m] my-minor-mode)
 	  ;;([?p] 'predictive-mode)
 	  ([?i] 'icicle-mode)
-        ([?t] 'my-set-tab-width)
+    ([?t] 'my-set-tab-width)
+    ([?f] 'my-set-mac-font)
 	  ;; ([?s] 'flyspell-mode)
 	  ([?m] 'menu-bar-mode)
 	  ([?o] 'outline-minor-mode)
@@ -428,18 +429,19 @@
   ;;((kbd "C-<tab>") 'indent-for-tab-command)
 
   ((kbd "C-t") 'transpose-lines)
+
+  ((kbd "M-v") nil)
   )
-
-
-
 
 ;; mode specific maps
 
 (defkeys (help-mode-map)
-  ((kbd "<backspace>") 'help-go-back))
+  ((kbd "<next>") 'help-go-forward)
+  ((kbd "<prior>") 'help-go-back))
 
-(defkeys view-mode-map
-  ((kbd "C-j") nil))
+
+;; (defkeys view-mode-map
+;;   ((kbd "C-j") nil))
 
 ;; bunch of minibuffer maps
 ;; minibuffer-local-completion-map

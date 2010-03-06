@@ -4,7 +4,7 @@
 (setq icicle-search-from-isearch-keys '())
 
 (icicle-mode 1)
-(setq insert-default-directory nil)
+(setq insert-default-directory t)
 (setq icicle-reminder-prompt-flag nil)
 
 

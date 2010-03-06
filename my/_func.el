@@ -783,3 +783,22 @@ starting at (point)."
     (interactive "r\nsAlign regexp: ")
     (align-regexp start end 
         (concat "\\(\\s-*\\)" regexp) 1 1 t))
+
+(defun my-set-mac-font (name  size)
+  (interactive
+   (list (completing-read "font-name: "
+                          (font-family-list) nil t)
+         (read-number "size: " 12)))
+  (set-face-attribute 'default nil 
+                      :family name
+                      :slant  'normal
+                      :weight 'extra-light
+                      :width  'normal
+                      :height (* 10 size)))
+
+(defun my-hide-temp-windows ()
+    (interactive)
+  (loop for w in (window-list)
+     do (let* ((buffer (window-buffer w)))
+          (when (eql (aref (buffer-name buffer) 0) ?*)
+            (delete-window w)))))

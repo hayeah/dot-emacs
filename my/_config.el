@@ -18,10 +18,25 @@
 	    (tool-bar-lines . 0)
 	    (line-spacing . 0))
 	  default-frame-alist))
-;;(fringe-mode (cons 0 0))
-;;(scroll-bar-mode -1)
+
+(fringe-mode 0)
+(scroll-bar-mode 0)
 (tool-bar-mode -1)
 (menu-bar-mode -1)
+(winner-mode 1)
+
+;; i don't want display-buffer to create new windows for me.
+;; ;; recursively, i don't want with-output-to-temp-buffer to do that.
+;; ;; ;; ditto with *Help*, *Completion*, so on. 
+(setq pop-up-windows nil)
+
+;; set font
+(set-face-attribute 'default nil
+                      :family "Courier"
+                      :slant  'normal
+                      :weight 'normal
+                      :width  'normal
+                      :height (* 10 14))
 
 ;; default modeline
 
@@ -59,6 +74,7 @@
 (column-number-mode 1)
 (blink-cursor-mode -1)
 (fset 'yes-or-no-p 'y-or-n-p)
+(temp-buffer-resize-mode)
 
 ;; Display page delimiter ^L as a horizontal line
 (or standard-display-table (setq standard-display-table (make-display-table)))
