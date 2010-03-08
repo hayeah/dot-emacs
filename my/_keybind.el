@@ -431,10 +431,13 @@
   ((kbd "C-t") 'transpose-lines)
 
   ((kbd "M-v") nil)
+
+  ((kbd "<prior>") 'pop-global-mark)
   )
 
 ;; mode specific maps
 
+(require 'help-mode)
 (defkeys (help-mode-map)
   ((kbd "<next>") 'help-go-forward)
   ((kbd "<prior>") 'help-go-back))

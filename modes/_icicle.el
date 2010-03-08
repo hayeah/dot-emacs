@@ -7,6 +7,50 @@
 (setq insert-default-directory t)
 (setq icicle-reminder-prompt-flag nil)
 
+(setq icicle-prefix-complete-keys '([S-tab]))
+(setq icicle-apropos-complete-keys '([tab]))
+
+;; (setq icicle-apropos-cycle-previous-keys (list C-i))
+;; (setq icicle-apropos-cycle-next-keys (list (kbd "C-k")))
+
+;; icicle-apropos-complete-keys
+;; icicle-apropos-complete-no-display-keys
+;; icicle-apropos-cycle-next-action-keys
+;; icicle-apropos-cycle-next-alt-action-keys 
+;; icicle-apropos-cycle-next-help-keys
+;; icicle-apropos-cycle-next-keys 
+;; icicle-apropos-cycle-previous-action-keys
+;; icicle-apropos-cycle-previous-alt-action-keys 
+;; icicle-apropos-cycle-previous-help-keys
+;; icicle-apropos-cycle-previous-keys 
+;; icicle-complete-keys-alist
+;; icicle-complete-keys-self-insert-flag 
+;; icicle-completing-read+insert-keys
+;; icicle-isearch-complete-keys 
+;; icicle-key-complete-keys
+;; icicle-modal-cycle-down-action-keys 
+;; icicle-modal-cycle-down-alt-action-keys
+;; icicle-modal-cycle-down-help-keys 
+;; icicle-modal-cycle-down-keys
+;; icicle-modal-cycle-up-action-keys 
+;; icicle-modal-cycle-up-alt-action-keys
+;; icicle-modal-cycle-up-help-keys 
+;; icicle-modal-cycle-up-keys
+;; icicle-prefix-complete-keys 
+;; icicle-prefix-complete-no-display-keys
+;; icicle-prefix-cycle-next-action-keys 
+;; icicle-prefix-cycle-next-alt-action-keys
+;; icicle-prefix-cycle-next-help-keys 
+;; icicle-prefix-cycle-next-keys
+;; icicle-prefix-cycle-previous-action-keys 
+;; icicle-prefix-cycle-previous-alt-action-keys
+;; icicle-prefix-cycle-previous-help-keys 
+;; icicle-prefix-cycle-previous-keys
+;; icicle-previous-candidate-keys 
+;; icicle-read+insert-file-name-keys
+;; icicle-search-from-isearch-keys 
+;; icicle-word-completion-keys 
+
 
 ;;(setq icicle-cycling-respects-completion-mode-flag t)
 
