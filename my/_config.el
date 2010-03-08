@@ -1,4 +1,3 @@
-(require 'pabbrev)
 
 (require 'color-theme)
 (color-theme-goldenrod)

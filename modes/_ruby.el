@@ -33,7 +33,8 @@
 ;;                (repeat . nil)
 ;;                (modes  . '(ruby-mode))))
 
-(defun my-ruby-mode-hook ()
+(defun my-ruby-mode-init ()
+  (interactive)
   (add-hook 'local-write-file-hooks
             '(lambda()
               (save-excursion
@@ -43,10 +44,9 @@
   (set (make-local-variable 'indent-tabs-mode) 'nil)
   (set (make-local-variable 'tab-width) 2)
   (require 'ruby-electric)
-  (ruby-electric-mode t)
-  (pabbrev-mode)
-  (pabbrev-scavenge-buffer))
+  (ruby-electric-mode t))
 
+(setq ruby-mode-hook (adjoin 'my-ruby-mode-init ruby-mode-hook))
 
 (defun ruby-backward-kill-sexp ()
   (interactive)
