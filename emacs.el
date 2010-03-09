@@ -15,12 +15,15 @@
 
       (load "_keybind.el")
 
+      (require 'fuzzy-match)
       ;; modes
       (load "_ee.el")
       (load "_icicle.el")
 
       (load "_ido.el")
       (load "_dir.el")
+
+      (load "_auto-complete.el")
 
       ;; langs
       (load "_lisp.el")
