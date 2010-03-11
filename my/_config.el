@@ -107,6 +107,8 @@
 ;; (global-set-key [(control insert)] 'clipboard-kill-ring-save)
 ;; (global-set-key [(shift insert)]   'clipboard-yank)
 
+(setq default-fill-column 70)
+
 (defun show-outline-structure ()
     "Show the outline-mode structure of the current buffer."
     (interactive)

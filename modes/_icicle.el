@@ -1,4 +1,9 @@
 (add-to-list 'load-path "~/el/lib/icicles/")
+
+;; these two should be set here before icicle starts to take effect.
+(setq icicle-prefix-complete-keys '([S-tab]))
+(setq icicle-apropos-complete-keys '([tab]))
+
 (require 'icicles)
 
 (setq icicle-search-from-isearch-keys '())
@@ -7,8 +12,6 @@
 (setq insert-default-directory t)
 (setq icicle-reminder-prompt-flag nil)
 
-(setq icicle-prefix-complete-keys '([S-tab]))
-(setq icicle-apropos-complete-keys '([tab]))
 
 ;; (setq icicle-apropos-cycle-previous-keys (list C-i))
 ;; (setq icicle-apropos-cycle-next-keys (list (kbd "C-k")))
