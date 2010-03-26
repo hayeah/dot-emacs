@@ -179,7 +179,7 @@
 		  ([?q] 'exit-recursive-edit )
 		  ([escape] 'top-level ))
     ([?i] 'beginning-of-buffer)
-    ([?j] 'end-of-buffer))
+    ([?k] 'end-of-buffer))
   ;; elisp eval
   (prefix [escape]
 	  ;;([f6]  (fi () (pp-eval-last-sexp 1)))
