@@ -1,5 +1,3 @@
-
-
 (defun my-indent-or-complete (arg)
     "Complete if point is at end of a word, otherwise indent line."
     (interactive "*P")

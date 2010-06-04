@@ -5,7 +5,6 @@
 ;; (require 'haml-mode)
 ;; (require 'sass-mode)
 
-
 (add-to-list 'auto-mode-alist '("\\.rb$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\.rake$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\.sass$" . sass-mode))

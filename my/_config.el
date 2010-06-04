@@ -20,8 +20,8 @@
 
 (fringe-mode 0)
 (scroll-bar-mode 0)
-(tool-bar-mode -1)
-(menu-bar-mode -1)
+;(tool-bar-mode -1)
+;(menu-bar-mode -1)
 (winner-mode 1)
 
 ;; i don't want display-buffer to create new windows for me.
@@ -66,7 +66,7 @@
 
 (auto-compression-mode 1)
 (eldoc-mode 1)
-(partial-completion-mode 1)
+;(partial-completion-mode 1)
 (icomplete-mode 1)
 (setq inhibit-startup-message t)
 (put 'upcase-region 'disabled nil)

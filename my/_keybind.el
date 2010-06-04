@@ -192,7 +192,6 @@
   ;; keyboard macro
   (prefix [f9]
 	  ([f9] (fn (&optional n) (interactive "p")
-		    (pr n)
 		    (if n (loop for i to (- n 1) do (with-kbd-undo (call-last-kbd-macro)))
 			(with-kbd-undo (call-last-kbd-macro)))))
 	  ([?s] 'start-kbd-macro)
