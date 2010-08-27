@@ -3397,7 +3397,8 @@ Key bindings:
   (let (font-lock-keywords) ; leaves syntactic keywords intact
     (font-lock-fontify-buffer))
 
-  (run-mode-hooks 'espresso-mode-hook))
+  ;; (run-mode-hooks 'espresso-mode-hook)
+  (run-hooks 'espresso-mode-hooks))
 
 
 (eval-after-load 'hideshow

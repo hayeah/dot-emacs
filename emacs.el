@@ -12,7 +12,7 @@
       
 (load "_keybind.el")
 
-(require 'fuzzy-match)
+;;(require 'fuzzy-match)
 ;; modes
 (load "_ee.el")
 (load "_icicle.el")
@@ -27,7 +27,10 @@
 (load "_elisp.el")
 (load "_lisp-indent.el")
 (load "_ruby.el")
-(load "_erlang.el")
+(load "_javascript.el")
+;;(load "_erlang.el")
+
+;;(load "_javascript.el")
 
 (show-paren-mode t)
 
@@ -43,6 +46,7 @@
  '(current-language-environment "UTF-8")
  '(default-input-method "rfc1345")
  '(ecb-options-version "2.33beta1")
+ '(espresso-indent-level 2)
  '(fill-column 50)
  '(global-font-lock-mode t nil (font-lock))
  '(icicle--sort-function icicle-historical-alphabetic-p)
