@@ -39,6 +39,10 @@
 ;; (define-key global-map [escape] (make-sparse-keymap)) ;; also make escape a prefix key.
 ;; (define-key global-map "\C-c" (make-keymap))
 
+(define-key global-map (kbd "C-h") help-map)
+;; unbind f1 from help-map
+(define-key global-map (kbd "<f1>") (make-sparse-keymap))
+
 ;; it is probably good to for prefix
 ;; C-x -> f1
 ;; ;; so f1-4  would be available for global prefix keys
@@ -122,9 +126,6 @@
 	(run-with-idle-timer newb-exit-idle-time
 	 nil 'newb-exit-modal modal-map)))
 
-
-
-
 (defmacro defkeys (&rest body)
   `(my-defkeys ,@body))
 
@@ -154,32 +155,35 @@
 	  ;;([?7] (fi () (select-window-by-index 7)))
 	  ;;([?8] (fi () (select-window-by-index 8)))
 	  ;;([?9] (fi () (select-window-by-index 9)))
-	  (prefix [?t]
-		  ([?a] 'my-etags-add-buffer)
-		  ;;([?l] 'etags-list-tags)
-		  )
-	  ([?n] 'toggle-narrow-to-region)
+	  ;;(prefix [?t]
+    ([?a] 'my-etags-add-buffer)
+    ;;([?l] 'etags-list-tags)
+    ([?n] 'toggle-narrow-to-region)
     ((kbd "<prior>") 'winner-redo)
     ((kbd "<next>") 'winner-undo)
-	  (modal [?a]
-		 ;; TODO buffer scrolling
-		 (my-C-i 'enlarge-window)
-		 ([?\C-k] 'shrink-window)
-		 ([?\C-l] 'enlarge-window-horizontally)
-		 ([?\C-j] 'shrink-window-horizontally)
-		 ([?s] 'shrink-window-if-larger-than-buffer)
-		 ([?f] 'fit-window-to-buffer))
-	  (prefix [?w]
-		  ([?r] 'restore-window-configuration)
-		  ([?s] 'save-window-configuration)
-		  ([?c] 'clear-window-configurations))
-	  ;; recursive edit
-	  (prefix [?r]
-		  ([?r] 'recursive-edit)
-		  ([?q] 'exit-recursive-edit )
-		  ([escape] 'top-level ))
+
     ([?i] 'beginning-of-buffer)
-    ([?k] 'end-of-buffer))
+    ([?k] 'end-of-buffer)
+    )
+
+	  ;; (modal [?a]
+		;;  ;; TODO buffer scrolling
+		;;  (my-C-i 'enlarge-window)
+		;;  ([?\C-k] 'shrink-window)
+		;;  ([?\C-l] 'enlarge-window-horizontally)
+		;;  ([?\C-j] 'shrink-window-horizontally)
+		;;  ([?s] 'shrink-window-if-larger-than-buffer)
+		;;  ([?f] 'fit-window-to-buffer))
+	  ;; (prefix [?w]
+		;;   ([?r] 'restore-window-configuration)
+		;;   ([?s] 'save-window-configuration)
+		;;   ([?c] 'clear-window-configurations))
+	  ;; recursive edit
+	  ;; (prefix [?r]
+		;;   ([?r] 'recursive-edit)
+		;;   ([?q] 'exit-recursive-edit )
+		;;   ([escape] 'top-level ))
+    
   ;; elisp eval
   (prefix [escape]
 	  ;;([f6]  (fi () (pp-eval-last-sexp 1)))
