@@ -769,11 +769,29 @@ starting at (point)."
      (goto-char a)
      (insert-char ?\( 1))))
 
-(defun* my-last-line-or-indent-code-rigidly (&optional n-chars)
-  (interactive "p")
-  (if transient-mark-mode
-      (indent-code-rigidly (region-beginning) (region-end) n-chars)
-      (my-last-char-of-line)))
+(labels ((indent (n)
+           (save-excursion
+             (let* ((here (point))
+                    (rb (region-beginning))
+                    (re (region-end))
+                    (beg (progn (goto-char rb)
+                                (beginning-of-line)
+                                (point)))
+                    (end (progn (goto-char re)
+                                (end-of-line)
+                                (point))))
+               (indent-code-rigidly beg end n)))))
+  (defun* my-last-char-of-line-or-indent-code-rigidly (&optional n-chars)
+    (interactive "P")
+    (if n-chars
+        (indent n-chars)
+        (my-last-char-of-line)))
+  (defun* my-first-char-of-line-or-indent-code-rigidly (&optional n-chars)
+    (interactive "P")
+    (if n-chars
+        (indent (* -1 n-chars))
+        (my-first-char-of-line))))
+
 
 (defun my-align-regexp (start end regexp)
     "repeat alignment with respect to 

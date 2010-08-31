@@ -318,14 +318,14 @@
   ;; ((kbd "M-j") 'isearch-backward)
   ((kbd "M-j") 'backward-char)
   ((kbd "C-M-j") 'backward-sexp)
-  ((kbd "s-j") 'my-first-char-of-line)
+  ((kbd "s-j") 'my-first-char-of-line-or-indent-code-rigidly)
   ;; ;; right
   ;;((kbd "C-l") 'forward-word)
   ((kbd "C-l") 'my-forward-word)
   ;; ((kbd "M-l") 'isearch-forward)
   ((kbd "M-l") 'forward-char)
   ((kbd "C-M-l") 'forward-sexp)
-  ((kbd "s-l") 'my-last-line-or-indent-code-rigidly)
+  ((kbd "s-l") 'my-last-char-of-line-or-indent-code-rigidly)
   ;; ;; up
   ([?\C->] 'previous-line)
   ((kbd "M-i") 'backward-paragraph)
