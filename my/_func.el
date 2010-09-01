@@ -603,8 +603,12 @@ starting at (point)."
 	(my-delete-trailing-spaces)
 	(next-line)
   (indent-according-to-mode)
-  (my-first-char-of-line)
-  )
+  (my-first-char-of-line))
+
+(defun my-kill-whole-line ()
+  (interactive)
+  (kill-whole-line 1)
+  (my-first-char-of-line))
 
 (defun my-save-whole-line ()
   (interactive)

@@ -352,11 +352,12 @@
 
 ;; line kill & yanks
 (defkeys global-map
-		(prefix (kbd "C-v")
-						((kbd "C-v") 'my-kill-whole-line)
-						((kbd "C-d") 'my-save-whole-line)
-						((kbd "C-l") 'kill-line)
-						((kbd "C-j") (fi () (kill-line -1)))))
+  ((kbd "C-m") 'my-kill-whole-line)
+  (prefix (kbd "C-v")
+          ((kbd "C-v") 'my-kill-whole-line)
+          ((kbd "C-d") 'my-save-whole-line)
+          ((kbd "C-l") 'kill-line)
+          ((kbd "C-j") (fi () (kill-line -1)))))
 
 
 (defkeys global-map
