@@ -378,12 +378,12 @@
   ((kbd "C-,") 'pop-tag-mark)
 
   ;; indentation
-  ([?\r] 'newline-and-indent)
+  ((kbd "<return>") 'newline-and-indent)
   ((kbd "M-<return>") 'my-delete-indentation)
   ;; open line below
-  ((kbd "s-<return>") 'my-open-line-below)
+  ((kbd "C-<return>") 'my-open-line-below)
   ;; open line above
-  ((kbd "M-s-<return>") 'my-open-line-above)
+  ((kbd "s-<return>") 'my-open-line-above)
   ;;((kbd "C-<return>") (fi () (end-of-line) (newline) (indent-according-to-mode)))
   ;;((kbd "s-<return>") (fi () (newline) (newline) (indent-according-to-mode) (previous-line) (indent-according-to-mode)))
   ("\C-\\" 'indent-region)
@@ -435,8 +435,6 @@
   ;;((kbd "C-<tab>") 'indent-for-tab-command)
 
   ((kbd "C-t") 'transpose-lines)
-
-  ((kbd "M-v") nil)
 
   ((kbd "<prior>") 'pop-global-mark)
   )
