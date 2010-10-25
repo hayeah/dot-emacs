@@ -164,6 +164,10 @@
 
     ([?i] 'beginning-of-buffer)
     ([?k] 'end-of-buffer)
+    (prefix [f12]
+            ([?s] (fi () (desktop-save desktop-dirname)))
+            ([?l] 'my-switch-desktop)
+            ([?w] (fi ((dir "Ddirectory:")) (desktop-save dir))))
     )
 
 	  ;; (modal [?a]
@@ -352,7 +356,7 @@
 
 ;; line kill & yanks
 (defkeys global-map
-  ((kbd "C-m") 'my-kill-whole-line)
+  ;; f((kbd "C-m") 'my-kill-whole-line)
   (prefix (kbd "C-v")
           ((kbd "C-v") 'my-kill-whole-line)
           ((kbd "C-d") 'my-save-whole-line)
@@ -378,7 +382,8 @@
   ((kbd "C-,") 'pop-tag-mark)
 
   ;; indentation
-  ((kbd "<return>") 'newline-and-indent)
+  ;; C-m is pass through from <return>
+  ((kbd "C-m") 'newline-and-indent)
   ((kbd "M-<return>") 'my-delete-indentation)
   ;; open line below
   ((kbd "C-<return>") 'my-open-line-below)

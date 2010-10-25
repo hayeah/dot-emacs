@@ -822,3 +822,24 @@ starting at (point)."
      do (let* ((buffer (window-buffer w)))
           (when (eql (aref (buffer-name buffer) 0) ?*)
             (delete-window w)))))
+
+(defun my-save-and-unload-buffers-under (dir)
+  (interactive "D directory:")
+  (pr (my-buffers-under dir)))
+
+(defun my-buffers-under (dir)
+  (let ((dir (file-truename dir)))
+    (loop for buffer in (buffer-list)
+       for path = (buffer-file-name buffer)
+       if (and path (string-match (concat "^" dir) (file-truename path)))
+       collect buffer)))
+
+(defvar my-current-desktop-directory nil)
+
+(defun my-switch-desktop (dir)
+  (interactive "D directory:")
+  (and my-current-desktop-directory (desktop-save my-current-desktop-directory))
+  (setq my-current-desktop-directory dir)
+  (desktop-clear)
+  (desktop-read dir))
+
