@@ -1,4 +1,8 @@
 ;;; color-theme.el --- install color themes
+(unless (fboundp 'plist-to-alist)
+  (defun plist-to-alist (lst)
+    (loop for (a b) on lst by 'cddr
+       collect (cons a b))))
 
 ;; Copyright (C) 1999, 2000  Jonadab the Unsightly One <jonadab@bright.net>
 ;; Copyright (C) 2000, 2001, 2002, 2003  Alex Schroeder <alex@gnu.org>
