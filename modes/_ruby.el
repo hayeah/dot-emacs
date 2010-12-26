@@ -45,7 +45,7 @@
   (require 'ruby-electric)
   (ruby-electric-mode t))
 
-(setq ruby-mode-hook (adjoin 'my-ruby-mode-init ruby-mode-hook))
+;; (setq ruby-mode-hook (adjoin 'my-ruby-mode-init ruby-mode-hook))
 
 (defun ruby-backward-kill-sexp ()
   (interactive)
