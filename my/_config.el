@@ -61,7 +61,7 @@
 (server-mode)
 (desktop-save-mode 1)
 (setq desktop-path (list "~/el/desktop"))
-(setq desktop-restore-eager 25)
+(setq desktop-restore-eager 60)
 ;;(desktop-read)
 
 (auto-compression-mode 1)
