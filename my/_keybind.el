@@ -429,8 +429,10 @@
   ;; ((kbd "C-M->") 'balance-windows)
 
   ;; register
-  ((kbd "C-e") 'jump-to-register)
-  ((kbd "M-e") 'point-to-register)
+  ;; ((kbd "C-e") 'jump-to-register)
+  ;; ((kbd "M-e") 'point-to-register)
+  ((kbd "C-e") 'my-kill-whole-line)
+  ((kbd "M-e") 'my-save-whole-line)
   ;;          ((kbd "C-q") 'bookmark-jump)
   ;;          ((kbd "M-q") 'bookmark-set)
   ;;          ((kbd "C-M-q") 'bookmark-save)
