@@ -28,6 +28,7 @@
 (load "_lisp-indent.el")
 (load "_ruby.el")
 (load "_javascript.el")
+(load "_coffee-script.el")
 ;;(load "_erlang.el")
 
 ;;(load "_javascript.el")
