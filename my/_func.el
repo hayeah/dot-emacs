@@ -834,12 +834,11 @@ starting at (point)."
        if (and path (string-match (concat "^" dir) (file-truename path)))
        collect buffer)))
 
-(defvar my-current-desktop-directory nil)
+(defun my-desktop-save (dir)
+  (interactive "Ddirectory:")
+  (desktop-save dir))
 
-(defun my-switch-desktop (dir)
-  (interactive "D directory:")
-  (and my-current-desktop-directory (desktop-save my-current-desktop-directory))
-  (setq my-current-desktop-directory dir)
+(defun my-desktop-read (dir)
+  (interactive "Ddirectory:")
   (desktop-clear)
   (desktop-read dir))
-

@@ -165,8 +165,8 @@
     ([?i] 'beginning-of-buffer)
     ([?k] 'end-of-buffer)
     (prefix [f12]
-            ([?s] (fi () (desktop-save desktop-dirname)))
-            ([?l] 'my-switch-desktop)
+            ([?s] 'my-desktop-save)
+            ([?l] 'my-desktop-read)
             ([?w] (fi ((dir "Ddirectory:")) (desktop-save dir))))
     )
 
@@ -268,6 +268,7 @@
 		   (bookmark-delete (ido-bookmark-completing-read "Delete Bookmark: "))))
 	  ("\C-l" 'bookmark-bmenu-list))
   )
+
 
 ;; (event-modifiers (aref (kbd "C-M-r") 0))
 ;; (event-basic-type (aref (kbd "C-M-r") 0) )
