@@ -48,7 +48,7 @@
  '(default-input-method "rfc1345")
  '(ecb-options-version "2.33beta1")
  '(espresso-indent-level 2)
- '(fill-column 50)
+ '(fill-column 80)
  '(global-font-lock-mode t nil (font-lock))
  '(icicle--sort-function icicle-historical-alphabetic-p)
  '(icicle-alternative-sort-function icicle-case-string-less-p)
