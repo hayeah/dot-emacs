@@ -605,11 +605,6 @@ starting at (point)."
   (indent-according-to-mode)
   (my-first-char-of-line))
 
-(defun my-kill-whole-line ()
-  (interactive)
-  (kill-whole-line 1)
-  (my-first-char-of-line))
-
 (defun my-save-whole-line ()
   (interactive)
   (let ((beg (my-first-char-of-line))
@@ -842,3 +837,4 @@ starting at (point)."
   (interactive "Ddirectory:")
   (desktop-clear)
   (desktop-read dir))
+
