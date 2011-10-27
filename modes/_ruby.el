@@ -38,18 +38,18 @@
 
 (defun my-ruby-mode-init ()
   (interactive)
-  (add-hook 'local-write-file-hooks
-            '(lambda()
-              (save-excursion
-                (untabify (point-min) (point-max))
-                ;;(delete-trailing-whitespace)
-                )))
+  ;; (add-hook 'local-write-file-hooks
+  ;;           '(lambda()
+  ;;             (save-excursion
+  ;;               (untabify (point-min) (point-max))
+  ;;               ;;(delete-trailing-whitespace)
+  ;;               )))
   (set (make-local-variable 'indent-tabs-mode) 'nil)
   (set (make-local-variable 'tab-width) 2)
   (require 'ruby-electric)
   (ruby-electric-mode t))
 
-;; (setq ruby-mode-hook (adjoin 'my-ruby-mode-init ruby-mode-hook))
+(add-hook 'ruby-mode-hook 'my-ruby-mode-init)
 
 (defun ruby-backward-kill-sexp ()
   (interactive)
@@ -65,12 +65,28 @@
 
 (defun ruby-reindent-then-newline-and-indent ()
   (interactive "*")
-  (newline)
-  (save-excursion
-    (end-of-line 0)
-    (indent-according-to-mode)
-    (delete-region (point) (progn (skip-chars-backward " \t") (point))))
-  (indent-according-to-mode))
+
+  (let* ((cur (point))
+         ;; we need to insert a space artificially for this test to work properly :(
+         (expand-p (progn (insert " ") 
+                          (ruby-electric-space-can-be-expanded-p))))
+    ;; remove the inserted space
+    (progn (goto-char cur)
+           (delete-char 1))
+    (if expand-p
+        (progn (ruby-indent-line t)
+               (newline)
+               (newline) ;; want to open up a new line to go back to
+               (ruby-insert-end)
+               (previous-line)
+               (indent-according-to-mode))
+        (progn (newline)
+               (save-excursion
+                 (end-of-line 0)
+                 (indent-according-to-mode)
+                 (delete-region (point) (progn (skip-chars-backward " \t") (point))))
+               (indent-according-to-mode)))))
+
 
 (defkeys (ruby-mode-map)
     ("{" 'ruby-electric-brace)
